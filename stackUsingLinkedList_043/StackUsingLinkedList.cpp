@@ -66,7 +66,12 @@ public:
 			stack stack;
 			int choice = 0;
 			 
-		
+			cout << "=== Main Menu===" << endl;
+			cout << "\n1.Push" << endl;
+			cout << "\n2.pop" << endl;
+			cout << "\n3.peek" << endl;
+			cout << "\n4.Exit" << endl;
+			cin >> choice;
 
 	
 	}
