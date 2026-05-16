@@ -72,7 +72,7 @@ public:
 		cout << "\n2.pop" << endl;
 		cout << "\n3.peek" << endl;
 		cout << "\n4.Exit" << endl;
-
+		cout << "\nChoose an option: " << endl;
 		cin >> choice;
 
 		while (choice != 5) {
