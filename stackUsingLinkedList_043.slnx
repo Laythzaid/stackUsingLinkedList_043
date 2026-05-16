@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="stackUsingLinkedList_043/stackUsingLinkedList_043.vcxproj" />
+</Solution>
