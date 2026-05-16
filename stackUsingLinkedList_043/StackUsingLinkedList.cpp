@@ -79,6 +79,7 @@ public:
 			{
 			case 1:
 				stack.push(5);
+				break;
 			case 2: 
 				if (stack.isEmpty()) {
 					cout << "Stack is empty, can't pop. " << endl;
@@ -86,7 +87,17 @@ public:
 				else {
 					stack.pop();
 				}
-		
+				break;
+			case 3: 
+				if (!stack.isEmpty()) {
+					stack.peek();
+				}
+				else {
+					cout << "Stack is empty. " << endl;
+				}
+				break;
+			case 4: 
+
 		        
 			}
 
