@@ -42,10 +42,11 @@ public:
 		Node* temp = top;
 		top = top->next;
 		cout << "Pop value: " << temp->data << endl;
-		}
+		
 		bool isEmpty() {
 			return top == NULL;
-	}
+	    }
+
 	
 	
 	}
