@@ -23,6 +23,7 @@ public:
 	{
 		top = NULL;
 	}
+
 	int push(int value)
 	{
 		Node* newNode = new Node();
@@ -33,5 +34,17 @@ public:
 		return value;
 	}
 
+	void pop()
+	{
+		if (isEmpty()) {
+			cout << "Stack is empty. Cannot pop." << endl;
+		}
+		else {
+			Node* current = top;
+			current 
+		}
+	
+	
+	}
 
 };
