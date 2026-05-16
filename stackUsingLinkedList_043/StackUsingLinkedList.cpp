@@ -66,7 +66,7 @@ public:
 	int main() {
 		stack stack;
 		int choice = 0;
-
+		int value;
 		cout << "=== Main Menu===" << endl;
 		cout << "\n1.Push" << endl;
 		cout << "\n2.pop" << endl;
@@ -78,7 +78,10 @@ public:
 			switch (choice)
 			{
 			case 1:
-				stack.push(5);
+				cout << endl << endl;
+				cout << "Enter the value you want to push: " << endl;
+				cin >> value;
+				stack.push(value);
 				break;
 			case 2: 
 				if (stack.isEmpty()) {
@@ -97,7 +100,8 @@ public:
 				}
 				break;
 			case 4: 
-
+				cout << "Exiting the program .. " << endl;
+				break;
 		        
 			}
 
