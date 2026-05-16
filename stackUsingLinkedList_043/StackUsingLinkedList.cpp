@@ -72,6 +72,7 @@ public:
 		cout << "\n2.pop" << endl;
 		cout << "\n3.peek" << endl;
 		cout << "\n4.Exit" << endl;
+
 		cin >> choice;
 
 		while (choice != 5) {
@@ -102,7 +103,9 @@ public:
 			case 4: 
 				cout << "Exiting the program .. " << endl;
 				break;
-		        
+			default :
+				cout << "Invalid choice ! choose an option from the main menu: " << endl;
+				break;
 			}
 
 		}
