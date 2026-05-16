@@ -46,7 +46,20 @@ public:
 		bool isEmpty() {
 			return top == NULL;
 	    }
-
+		void peek() {
+			if (top == NULL) {
+				cout << "List is empty. " << endl;
+			}
+			else
+			{
+				Node* current = top;
+				while (current != NULL)
+				{
+					cout << current->data << " " << endl;
+					cout << current->next;
+				}
+			}
+	}
 
 	
 	
