@@ -79,6 +79,13 @@ public:
 			{
 			case 1:
 				stack.push(5);
+			case 2: 
+				if (stack.isEmpty()) {
+					cout << "Stack is empty, can't pop. " << endl;
+				}
+				else {
+					stack.pop();
+				}
 		
 		        
 			}
