@@ -58,9 +58,18 @@ public:
 					cout << current->data << " " << endl;
 					cout << current->next;
 				}
+				cout << endl;
 			}
 	}
 
+		int main() {
+			stack stack;
+			int choice = 0;
+			 
+		
+
+	
+	}
 	
 	
 	
