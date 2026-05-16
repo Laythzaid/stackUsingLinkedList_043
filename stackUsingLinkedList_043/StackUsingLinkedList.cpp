@@ -73,7 +73,10 @@ public:
 			cout << "\n4.Exit" << endl;
 			cin >> choice;
 
-	
+			while (choice != 5) {
+				case 1:
+
+			}
 	}
 	
 	
